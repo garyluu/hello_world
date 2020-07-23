@@ -32,7 +32,7 @@ outputs:
 
 steps:
   helloworld:
-    run: hello_world.cwl
+    run: https://raw.githubusercontent.com/garyluu/hello_world/checkerWithHTTPImport/hello_world.cwl
     in: 
       input_file: input_file
       template_file: template_file
